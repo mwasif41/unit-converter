@@ -3,7 +3,7 @@ fout:   .asciiz "testout.txt"      # filename for output
 buffer: .asciiz "\nconvertion result is:"
 buffer12: .resb 33
                 .text
- li.s $f1,10.0
+ 
     ###############################################################
   # Open (for writing) a file that does not exist
   li   $v0, 13       # system call for open file

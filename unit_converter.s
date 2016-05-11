@@ -1,5 +1,5 @@
 .data
-####################filing######################
+#####################filing######################
 fout1:   .asciiz "temp.txt"      # filename for output
 fout2:   .asciiz "length.txt"      # filename for output
 fout3:   .asciiz "wt.txt"      # filename for output
